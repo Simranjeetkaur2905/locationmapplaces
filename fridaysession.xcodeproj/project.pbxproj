@@ -15,6 +15,8 @@
 		D069592223C9139600ABAC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D069592023C9139600ABAC1A /* LaunchScreen.storyboard */; };
 		D069592D23C9139600ABAC1A /* fridaysessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069592C23C9139600ABAC1A /* fridaysessionTests.swift */; };
 		D069593823C9139600ABAC1A /* fridaysessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069593723C9139600ABAC1A /* fridaysessionUITests.swift */; };
+		D069594823C9146000ABAC1A /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = D069594723C9146000ABAC1A /* Places.plist */; };
+		D069594A23C9150400ABAC1A /* place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069594923C9150400ABAC1A /* place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D069593323C9139600ABAC1A /* fridaysessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fridaysessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069593723C9139600ABAC1A /* fridaysessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fridaysessionUITests.swift; sourceTree = "<group>"; };
 		D069593923C9139600ABAC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D069594723C9146000ABAC1A /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		D069594923C9150400ABAC1A /* place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D069591E23C9139600ABAC1A /* Assets.xcassets */,
 				D069592023C9139600ABAC1A /* LaunchScreen.storyboard */,
 				D069592323C9139600ABAC1A /* Info.plist */,
+				D069594723C9146000ABAC1A /* Places.plist */,
+				D069594923C9150400ABAC1A /* place.swift */,
 			);
 			path = fridaysession;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				D069592223C9139600ABAC1A /* LaunchScreen.storyboard in Resources */,
 				D069591F23C9139600ABAC1A /* Assets.xcassets in Resources */,
+				D069594823C9146000ABAC1A /* Places.plist in Resources */,
 				D069591D23C9139200ABAC1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 				D069591A23C9139200ABAC1A /* ViewController.swift in Sources */,
 				D069591623C9139200ABAC1A /* AppDelegate.swift in Sources */,
 				D069591823C9139200ABAC1A /* SceneDelegate.swift in Sources */,
+				D069594A23C9150400ABAC1A /* place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
